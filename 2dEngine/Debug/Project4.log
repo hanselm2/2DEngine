@@ -1,0 +1,72 @@
+﻿Build started 8/2/2015 3:52:12 AM.
+     1>Project "D:\Users\Caleb\Documents\Visual Studio 2013\Projects\Project4\Project4\Project4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\VC\bin\CL.exe /c /I"D:\Dev\glew-1.11.0\include\GL" /ID:\Dev\freeglut\include\GL /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Application\ActionSet.cpp src\Application\ApplicationState.cpp src\Application\Editor.cpp src\Application\RunApplication.cpp src\Rendering\AnimatedDrawable.cpp src\Rendering\ColoredDrawable.cpp src\Rendering\DrawableObject.cpp src\Rendering\EnvLoader.cpp src\Rendering\TexturedDrawable.cpp
+         ActionSet.cpp
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\utils\apputils.h(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(224): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(225): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         TexturedDrawable.cpp
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\utils\apputils.h(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(224): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(225): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         EnvLoader.cpp
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\utils\apputils.h(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(224): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(225): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         DrawableObject.cpp
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\utils\apputils.h(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\rendering\drawableobject.cpp(22): warning C4018: '>=' : signed/unsigned mismatch
+         ColoredDrawable.cpp
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\utils\apputils.h(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(224): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(225): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         AnimatedDrawable.cpp
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\utils\apputils.h(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(224): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(225): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         RunApplication.cpp
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\utils\apputils.h(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(224): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(225): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\runapplication.cpp(184): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\runapplication.cpp(238): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\runapplication.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+         Editor.cpp
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\utils\apputils.h(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(224): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(225): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\editor.cpp(12): warning C4305: '=' : truncation from 'double' to 'float'
+         ApplicationState.cpp
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\utils\apputils.h(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(224): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\caleb\documents\visual studio 2013\projects\project4\project4\src\application\applicationstate.h(225): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         D:\Program Files\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Caleb\Documents\Visual Studio 2013\Projects\Project4\Debug\openGl.exe" /INCREMENTAL /NOLOGO /LIBPATH:Dependencies\freeglut /LIBPATH:Dependencies\glew opengl32.lib freeglut.lib glew32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Caleb\Documents\Visual Studio 2013\Projects\Project4\Debug\openGl.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Caleb\Documents\Visual Studio 2013\Projects\Project4\Debug\openGl.lib" /MACHINE:X86 comdlg32.lib Debug\ActionSet.obj
+         Debug\Editor.obj
+         Debug\EnvLoader.obj
+         Debug\AnimatedDrawable.obj
+         Debug\ColoredDrawable.obj
+         Debug\DrawableObject.obj
+         Debug\RunApplication.obj
+         Debug\ApplicationState.obj
+         Debug\TexturedDrawable.obj
+         Debug\Vector2D.obj
+         Project4.vcxproj -> D:\Users\Caleb\Documents\Visual Studio 2013\Projects\Project4\Debug\openGl.exe
+     1>Done Building Project "D:\Users\Caleb\Documents\Visual Studio 2013\Projects\Project4\Project4\Project4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.58

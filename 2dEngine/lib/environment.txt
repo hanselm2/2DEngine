@@ -1,0 +1,51 @@
+Environment testEnv start
+
+VectorPoints box1 start
+0.5 0.5
+1 0
+0 0
+VectorPoints box1 end
+
+VectorPoints box2 start
+-1.5 0.5
+-0.5 0.5
+-0.5 -0.5
+-1.5 -0.5
+VectorPoints box2 end
+
+VectorPoints box3 start
+0 -1.0
+1.0 -5
+-7 -1.5
+VectorPoints box3 end
+
+VectorPoints box4 start
+-3.5 0.5
+-3.0 2.0
+-5.0 8.0
+VectorPoints box4 end
+
+VectorPoints box5 start
+6.5 2.05
+3.0 4.0
+1.5 6.0
+5.0 8.0
+VectorPoints box5 end
+
+Animation animation1 start
+tiles.bmp
+sphere.bmp
+tiles.bmp
+LightningTexture.bmp
+sphere.bmp
+Animation animation1 end
+
+ColoredDrawable box1 1 1 .5 .2 .5 true
+ColoredDrawable box2 2 0 .9 .0 .5 true
+ColoredDrawable box3 1 .0 .0 .9 .5 true
+
+TexturedDrawable box4 1 tiles.bmp true
+
+AnimatedDrawable box5 1 animation1 100 true
+
+Environment testEnv end
